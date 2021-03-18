@@ -1,17 +1,17 @@
 # Herramientas-Computacionales
 
-Projects used:
-snake.py
-cannon.py
+Projects used: <br />
+snake.py <br />
+cannon.py <br />
 
 ## Changes
 
 ### snake.py
-Alex:
-Santi:
-Adri:
+Alex: <br />
+Santi: <br />
+Adri: <br />
 
 ### cannon.py
-Alex:
-Santi:
-Adri:
+Alex: <br />
+Santi: <br />
+Adri: <br />
