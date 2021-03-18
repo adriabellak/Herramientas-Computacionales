@@ -22,8 +22,12 @@ def tap(x, y):
     if not inside(ball):
         ball.x = -199
         ball.y = -199
-        speed.x = (x + 200) / 25
-        speed.y = (y + 200) / 25
+
+        # Variable that controls the speed, the smaller the number the faster the ball goes
+        spd = 10
+
+        speed.x = (x + 200) / spd
+        speed.y = (y + 200) / spd
 
 def inside(xy):
     "Return True if xy within screen."
