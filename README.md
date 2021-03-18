@@ -4,6 +4,11 @@ Projects used: <br />
 snake.py <br />
 cannon.py <br />
 
+Team members: <br />
+Alejandro Pascal Garza <br />
+Santiago Villalobos <br />
+Adriana Abella Kuri <br />
+
 ## Changes
 
 ### snake.py
