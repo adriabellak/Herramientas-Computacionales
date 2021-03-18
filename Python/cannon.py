@@ -23,11 +23,8 @@ def tap(x, y):
         ball.x = -199
         ball.y = -199
 
-        # Variable that controls the speed, the smaller the number the faster the ball goes
-        spd = 10
-
-        speed.x = (x + 200) / spd
-        speed.y = (y + 200) / spd
+        speed.x = (x + 200) / 25
+        speed.y = (y + 200) / 25
 
 def inside(xy):
     "Return True if xy within screen."
@@ -61,7 +58,7 @@ def move():
 
     # Move the cannon shot
     if inside(ball):
-        speed.y -= 0.35
+        speed.y -= 1
         ball.move(speed)
 
     # Make a copy of the existing target list before redrawing
