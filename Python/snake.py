@@ -10,6 +10,7 @@ Exercises
 """
 
 from turtle import *
+import random
 from random import randrange
 from freegames import square, vector
 
@@ -27,6 +28,7 @@ def inside(head):
     return -200 < head.x < 190 and -200 < head.y < 190
 
 def move():
+
     "Move snake forward one segment."
     head = snake[-1].copy()
     head.move(aim)
@@ -54,6 +56,26 @@ def move():
     update()
     ontimer(move, 100)
 
+def movefood():
+    "Move food one place in random direction"
+    if food.x == -200:
+        xdirections = [0, 10]
+    elif food.x == 190:
+        xdirections = [-10, 0]
+    else:
+        xdirections = [-10, 0, 10]
+
+    if food.y == -200:
+        ydirections = [0, 10]
+    elif food.y == 190:
+        ydirections = [-10, 0]
+    else:
+        ydirections = [-10, 0, 10]
+
+    food.x = food.x + random.choice(xdirections)
+    food.y = food.y + random.choice(ydirections)
+    ontimer(movefood, 500)
+
 setup(420, 420, 370, 0)
 hideturtle()
 tracer(False)
@@ -63,4 +85,5 @@ onkey(lambda: change(-10, 0), 'Left')
 onkey(lambda: change(0, 10), 'Up')
 onkey(lambda: change(0, -10), 'Down')
 move()
+movefood()
 done()
