@@ -5,9 +5,9 @@ snake.py <br />
 cannon.py <br />
 
 Team members: <br />
-Alejandro Pascal Garza <br />
-Santiago Villalobos <br />
-Adriana Abella Kuri <br />
+Alejandro Pascal Garza, A01023621<br />
+Santiago Villalobos, A01028142<br />
+Adriana Abella Kuri, A01329591<br />
 
 ## Changes
 
