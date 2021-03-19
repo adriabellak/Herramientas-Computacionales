@@ -1,4 +1,10 @@
-"""Cannon, hitting targets with projectiles.
+"""
+Team members
+Alejandro Pascal Garza, A01023621
+Santiago Villalobos, A01028142
+Adriana Abella Kuri, A01329591
+
+Cannon, hitting targets with projectiles.
 
 Exercises
 
